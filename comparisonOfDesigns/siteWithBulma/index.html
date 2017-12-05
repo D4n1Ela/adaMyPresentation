@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Layout con Flexbox</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/withBulma.css">
+</head>
+<body>
+<div class="container-fluid">	
+	<div class="columns is-mobile">
+    <div class="column is-8 is-offset-2">
+
+    <header class="columns">	
+    <div class="column hero">	
+    <div class="hero-body">	
+    <nav class="navbar is-transparent">
+	    <div class="navbar-brand">	
+			<img src="img/logo.png" alt="logo de la cafetería">
+		    
+			<button class= "button navbar-burger" data-target="navMenu">    <span></span> 
+				<span></span> 
+				<span></span> 
+			</button> 
+	    </div> 
+         
+         <div class="navbar-menu" id="navMenu">
+    		<div class="navbar-end is-medium">	
+    			<a href="" class="navbar-item">Home</a>
+    			<a href="" class="navbar-item">Menú</a>
+    			<a href="" class="navbar-item">Contacto</a>
+    		</div>	
+		</div>
+    </nav>
+    </div>
+    </div>
+    </header>	
+
+    
+    <main class="columns">
+        <section class="column is-8 myPadding principal">
+			<article>
+				<div class="banner">
+					<img src="img/banner.jpg" alt="imágenes de tazas de café">
+				</div>
+		
+				<h1 class="title is-3">Bienvenidos</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cupiditate ex, adipisci, quaerat ipsum rerum dolorem tenetur earum ipsa vero ullam libero consectetur recusandae perspiciatis hic totam a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolore autem a odio, cumque. Quod consequuntur ullam spernatur adipisci distinctio, tenetur! Quam unde quaerat dolor delectus, quae quisquam cum animi.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cupiditate ex, adipisci, quaerat ipsum rerum dolorem tenetur earum ipsa vero ullam libero consectetur recusandae perspiciatis hic totam a blanditiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugiat maxime nam ex sequi reprehenderit optio voluptatem illo alias consequuntur, id error, rem dicta ab quae. Ipsum illum sit unde.</p>
+			</article>
+		</section>
+
+		<aside class="column">
+		<div class="columns">
+            <div class= "tile is-ancestor " > 
+		 		<div class= "tile is-12 is-desktop is-vertical is-parent is-desktop" > 
+			 		<div class= "tile is-child box" > 
+			 			<p> Café del día </p> 
+			 		</div> 
+			 		<div class= "tile is-child box" > 
+			 			<p> Recomendaciones </p> 
+			 		</div> 
+			 		<div class= "tile is-child box" > 
+			 			<p> Testimonios </p> 
+			 	    </div>
+				 </div> 
+		    </div> 
+		</div>	
+		</aside>
+		</main>
+        
+       
+		<footer class="columns myPadding">
+		    <div class="column is-4 is-medium">
+				<p>Designed by Yo</p>
+			</div>
+			<div class="column  is-medium">
+				<div class="is-pulled-right">	
+					<a href="#">Fanpage</a>
+			        <a href="#">Twitter</a>
+				</div>
+			</div>
+		</footer>
+	</div>	
+	</div>
+</div>	
+
+<script src="js/bulma.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*
+*{
+	border: 1px solid black;
+}
+*/
+
+body{
+	background: #000 url(../img/fondo.jpg) ;
+}
+
+a{
+	/*color: #000;*/
+	/*font-size: 0.7em;*/
+	
+}
+
+
+/*******************HEADER***************************/
+
+header{
+	background:rgba(255,255,255,0.5);
+}
+
+.navbar, .tile, .navbar-burger, .button{
+	background-color: transparent;
+}
+
+/*******************PRINCIPAL***************************/
+section{
+	background: #82E8B7;
+	padding: 2em;
+}
+
+article>div>p{
+    line-height: 1.8em;
+}
+
+aside{
+	background:grey;
+}
+
+aside  p{
+	padding: 4em 0; 
+	border:0.1em dashed black;
+	font-size: 1em;
+	text-align: center;
+
+
+}
+
+/*******************FOOTER***************************/
+
+footer{
+	background:rgba(255,255,255,0.5);
+}
+
+/*******************SEARCH***************************/
+.myPadding{
+	padding: 1.3em !important;
+}

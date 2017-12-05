@@ -1,0 +1,13 @@
+
+body{
+	background: #000 url(../img/fondo.jpg) ;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav.back{
+	background:rgba(255,255,255,0.4);
+}
+
+nav div.back{
+	background:rgba(255,255,255,0.4);
+}
